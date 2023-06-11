@@ -1,0 +1,28 @@
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+    margin: 20px 30px 40px;
+}
+
+h1{
+    text-align: center;
+}
+
+.row row-cols-1 row-cols-md-3 g-4 {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.card {
+    width: calc(33% - 10px); /* Ajusta el ancho según tus necesidades */
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    margin: 20px;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.col{
+    width: 100%;
+}
